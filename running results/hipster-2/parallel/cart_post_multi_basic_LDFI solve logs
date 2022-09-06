@@ -1,0 +1,7 @@
+0. 0 []: [['/cart/Post_productcatalogservice_GetProduct_v1'], ['/cart/Post_cartservice_AddItem_v1'], ['/cart/Post_frontend_/cart/Post_v1']]
+1. 0 ['/cart/Post_cartservice_AddItem_v1']: [['/cart/Post_productcatalogservice_GetProduct_v1'], ['/cart/Post_frontend_/cart/Post_v1'], ['/cart/Post_cartservice_AddItem_v2', '/cart/Post_cartservice_AddItem_v1']]
+2. 1 ['/cart/Post_frontend_/cart/Post_v1']: [['/cart/Post_productcatalogservice_GetProduct_v1'], ['/cart/Post_cartservice_AddItem_v2', '/cart/Post_cartservice_AddItem_v1'], ['/cart/Post_frontend_/cart/Post_v2', '/cart/Post_frontend_/cart/Post_v1']]
+3. 2 ['/cart/Post_cartservice_AddItem_v2', '/cart/Post_cartservice_AddItem_v1']: True
+4. 2 ['/cart/Post_frontend_/cart/Post_v2', '/cart/Post_frontend_/cart/Post_v1']: True
+solutions: [[u'/cart/Get_productcatalogservice_GetProduct_v1', u'/cart/Get_productcatalogservice_GetProduct_v2'], ['/cart/Post_cartservice_AddItem_v1', '/cart/Post_cartservice_AddItem_v2'], ['/cart/Post_frontend_/cart/Post_v1', '/cart/Post_frontend_/cart/Post_v2']]
+hypotheses: [[], ['/cart/Post_cartservice_AddItem_v1'], ['/cart/Post_frontend_/cart/Post_v1'], ['/cart/Post_cartservice_AddItem_v1', '/cart/Post_cartservice_AddItem_v2'], ['/cart/Post_frontend_/cart/Post_v1', '/cart/Post_frontend_/cart/Post_v2']]

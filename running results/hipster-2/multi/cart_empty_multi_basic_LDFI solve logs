@@ -1,0 +1,7 @@
+2022-01-25 13:08:57	0. 0 []: [['/cart/empty_frontend_/cart/empty_v1'], ['/cart/empty_cartservice_EmptyCart_v1']]
+2022-01-25 13:08:57	1. 0 ['/cart/empty_frontend_/cart/empty_v1']: [['/cart/empty_cartservice_EmptyCart_v1'], ['/cart/empty_frontend_/cart/empty_v2', '/cart/empty_frontend_/cart/empty_v1']]
+2022-01-25 13:08:57	2. 1 ['/cart/empty_cartservice_EmptyCart_v1']: [['/cart/empty_frontend_/cart/empty_v2', '/cart/empty_frontend_/cart/empty_v1'], ['/cart/empty_cartservice_EmptyCart_v1', '/cart/empty_cartservice_EmptyCart_v2']]
+2022-01-25 13:08:57	3. 2 ['/cart/empty_frontend_/cart/empty_v2', '/cart/empty_frontend_/cart/empty_v1']: True
+2022-01-25 13:08:57	4. 2 ['/cart/empty_cartservice_EmptyCart_v1', '/cart/empty_cartservice_EmptyCart_v2']: True
+2022-01-25 13:08:58	[['/cart/empty_frontend_/cart/empty_v1', '/cart/empty_frontend_/cart/empty_v2'], ['/cart/empty_cartservice_EmptyCart_v1', '/cart/empty_cartservice_EmptyCart_v2']]
+2022-01-25 13:08:58	[[], ['/cart/empty_frontend_/cart/empty_v1'], ['/cart/empty_cartservice_EmptyCart_v1'], ['/cart/empty_frontend_/cart/empty_v1', '/cart/empty_frontend_/cart/empty_v2'], ['/cart/empty_cartservice_EmptyCart_v1', '/cart/empty_cartservice_EmptyCart_v2']]

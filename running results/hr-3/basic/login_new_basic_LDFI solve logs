@@ -1,0 +1,9 @@
+0. 0 []: [['/user_frontend_/user_v1'], ['/user_user_CheckUser_v1']]
+1. 0 ['/user_frontend_/user_v1']: [['/user_user_CheckUser_v1'], ['/user_frontend_/user_v1', '/user_frontend_/user_v2']]
+2. 1 ['/user_user_CheckUser_v1']: [['/user_frontend_/user_v1', '/user_frontend_/user_v2'], ['/user_user_CheckUser_v1', '/user_user_CheckUser_v2']]
+3. 2 ['/user_frontend_/user_v1', '/user_frontend_/user_v2']: [['/user_user_CheckUser_v1', '/user_user_CheckUser_v2'], ['/user_frontend_/user_v3', '/user_frontend_/user_v1', '/user_frontend_/user_v2']]
+4. 3 ['/user_user_CheckUser_v1', '/user_user_CheckUser_v2']: [['/user_frontend_/user_v3', '/user_frontend_/user_v1', '/user_frontend_/user_v2'], ['/user_user_CheckUser_v1', '/user_user_CheckUser_v3', '/user_user_CheckUser_v2']]
+5. 4 ['/user_frontend_/user_v3', '/user_frontend_/user_v1', '/user_frontend_/user_v2']: True
+6. 4 ['/user_user_CheckUser_v1', '/user_user_CheckUser_v3', '/user_user_CheckUser_v2']: True
+solutions: [['/user_frontend_/user_v1', '/user_frontend_/user_v2', '/user_frontend_/user_v3'], ['/user_user_CheckUser_v1', '/user_user_CheckUser_v2', '/user_user_CheckUser_v3']]
+hypotheses: [[], ['/user_frontend_/user_v1'], ['/user_user_CheckUser_v1'], ['/user_frontend_/user_v1', '/user_frontend_/user_v2'], ['/user_user_CheckUser_v1', '/user_user_CheckUser_v2'], ['/user_frontend_/user_v1', '/user_frontend_/user_v2', '/user_frontend_/user_v3'], ['/user_user_CheckUser_v1', '/user_user_CheckUser_v2', '/user_user_CheckUser_v3']]
