@@ -1,6 +1,0 @@
-Flask==2.0.2
-jaeger-client
-opentracing
-requests==2.22.0
-gunicorn
-gevent
